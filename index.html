@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NYXCORE R6 AI Status</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="iconbig.png">
+</head>
+<body>
+    <div class="splash-screen" id="splash">
+        <div class="splash-logo-spin">
+            <img src="iconbig.png" alt="NYXCORE Logo" class="splash-logo" />
+        </div>
+        <div class="splash-title">NYXCORE</div>
+        <div class="splash-subtitle">AI PRECISION TARGETING</div>
+        <div class="splash-est">est. 2024</div>
+    </div>
+    <div class="nyxcore-app" id="main" style="display:none;">
+        <div class="nyxcore-topbar">
+            <img src="iconbig.png" alt="Logo" class="nyxcore-logo">
+            <span class="nyxcore-title">NYXCORE</span>
+            <span class="nyxcore-est">est. 2024</span>
+        </div>
+        <div class="nyxcore-status-section">
+            <div class="nyxcore-status-label">NYXCORE R6 AI Status</div>
+            <div class="nyxcore-status-container">
+                <span class="nyxcore-status-emoji blue">Testing / Early Access</span>
+            </div>
+        </div>
+    </div>
+    <script>
+    // Simple splash screen fade out
+    window.onload = function() {
+        setTimeout(function() {
+            document.getElementById('splash').style.opacity = 0;
+            setTimeout(function() {
+                document.getElementById('splash').style.display = 'none';
+                document.getElementById('main').style.display = '';
+            }, 700);
+        }, 1700);
+    };
+    </script>
+</body>
+</html>
