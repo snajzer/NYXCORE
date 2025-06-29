@@ -71,7 +71,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1.2rem;
-    padding: 1.1rem 10vw 1.1rem 10vw; /* Large side margins */
+    padding: 1.1rem 2vw 1.1rem 2vw; 
     box-sizing: border-box;
     box-shadow: 0 2px 16px #05e9ff22;
     border-bottom: 1.5px solid #05e9ff33;
